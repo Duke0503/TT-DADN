@@ -1,6 +1,4 @@
-# React Native Expo Redux Template
-
-[![Build Expo OTA](https://github.com/hpccbk/react-native-expo-redux-template/actions/workflows/update.yml/badge.svg)](https://github.com/hpccbk/react-native-expo-redux-template/actions/workflows/update.yml)
+# Smart Study Room
 
 This is a template for building React Native apps with the Expo framework and Redux for state management. It includes a basic file structure and configuration for setting up a Redux store, along with some example actions and reducers.
 
@@ -16,6 +14,12 @@ To create a new project using this template, please clone this repository. Then 
 
 ```bash
 yarn install
+```
+
+To run this project:
+
+```bash
+npx expo start
 ```
 
 ## File Structure
@@ -41,17 +45,3 @@ The template's file structure is organized as follows:
   - `Store/`: This folder contains Redux-related files, including the store configuration and reducers.
 
   - `Theme/`: This folder contains files related to the app's visual theme, such as colors, typography, and spacing.
-
-## Known Issues
-
-```js
-ApiV2Error: Not Authorized.
-```
-Reason and how to remove this issue: https://github.com/expo/expo-cli/issues/2436#issuecomment-1308534521
-
-
-## Contributing
-
-If you have suggestions for how this template could be improved, or want to report a bug, please open an issue or a pull request. We welcome contributions from the community!
-
-
